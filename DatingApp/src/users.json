@@ -1,0 +1,82 @@
+[
+  {
+    "gender": "male",
+    "name": "John",
+    "surname": "Doe",
+    "age": 25,
+    "photo": "../assets/img/boy1.800x1000.jpg",
+    "inRelation": true
+  },
+  {
+    "gender": "male",
+    "name": "James",
+    "surname": "Franklin",
+    "age": 27,
+    "photo": "../assets/img/boy2.800x1000.jpg",
+    "inRelation": false
+  },
+  {
+    "gender": "female",
+    "name": "Emily",
+    "surname": "May",
+    "age": 23,
+    "photo": "../assets/img/girl.800x1000.jpg",
+    "inRelation": false
+  },
+  {
+    "gender": "female",
+    "name": "Rebecca",
+    "surname": "Michaels",
+    "age": 19,
+    "photo": "../assets/img/girl2.800x1000.jpg",
+    "inRelation": false
+  },
+  {
+    "gender": "female",
+    "name": "Sarah",
+    "surname": "O'Donnel",
+    "age": 23,
+    "photo": "../assets/img/image1.jpg",
+    "inRelation": true
+  },
+  {
+    "gender": "female",
+    "name": "Marie",
+    "surname": "Dolton",
+    "age": 21,
+    "photo": "../assets/img/image2.jpg",
+    "inRelation": false
+  },
+  {
+    "gender": "male",
+    "name": "Proof",
+    "surname": "Dakota",
+    "age": 31,
+    "photo": "../assets/img/image3.jpg",
+    "inRelation": false
+  },
+  {
+    "gender": "female",
+    "name": "Holly",
+    "surname": "Davis",
+    "age": 25,
+    "photo": "../assets/img/image4.jpg",
+    "inRelation": false
+  },
+  {
+    "gender": "female",
+    "name": "Samantha",
+    "surname": "Markel",
+    "age": 30,
+    "photo": "../assets/img/image5.jpg",
+    "inRelation": false
+  },
+  {
+    "gender": "female",
+    "name": "Hope",
+    "surname": "Kinkley",
+    "age": 22,
+    "photo": "../assets/img/image6.jpg",
+    "inRelation": false
+  }
+]

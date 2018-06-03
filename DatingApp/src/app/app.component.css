@@ -1,0 +1,65 @@
+#header {
+	background-color: #7B248A;
+	padding: 30px 10px;
+}
+
+#jumbotron {
+	width: 100%;
+	height: 350px;
+	background-image: url('../assets/img/computer-1245714_1280.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+#fix {
+	background-color: #7B248A;
+	padding: 30px 10px;
+}
+
+h3 {
+	color: #efefef;
+	display: inline;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+h1 {
+	padding: 50px 0 ;
+	color: #fff;
+	font-size: 5em;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.overlay {
+	background: rgba(123, 36, 138, 0.4);
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 2;
+}
+
+span.bold {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.bg {
+	background-color: #D5C0D9;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.red {
+	color: #FF0101;
+}
+
+.left{
+	padding-left: 5px;
+}

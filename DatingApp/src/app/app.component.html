@@ -1,0 +1,43 @@
+<div class="row">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="header">
+	<img src="../assets/img/logo-coders-dating.png" alt="logo" class="img-responsive center-block">
+	</div>
+</div>
+<div class="row">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="jumbotron">
+		<div class="overlay">
+			<h1>Welcome to our <br> website</h1>
+		</div>
+	</div>
+</div>
+	<div *ngIf="appState == 'default'" class="row" id="fix">
+		<div class="col-lg-12">
+			<label><h3>Gender Filter</h3>
+			<select (change)="filterGender(filteredGender.value)" #filteredGender>
+				<option value="0">Select</option>
+				<option value="all">All</option>
+				<option *ngFor="let gender of gender" value="{{gender.gender}}">
+				{{gender.gender}}
+				</option>
+			</select>
+			</label>
+		</div>
+	</div>
+	<div class="row">
+
+		<!--firebase-->
+		<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 bg" *ngFor="let users of users">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<img src="{{users.photo}}" alt="{{users.gender}}" class="img-responsive center-block">
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<p>Name: <br><span class="bold">{{users.name}}</span></p>
+				<p>Surname: <br><span class="bold">{{users.surname}}</span></p>
+				<p>Age: <span class="bold">{{users.age}}</span></p>
+				<button class="btn btn-danger" (click)="addLikes(users.$key, users.likes)">
+			      Like
+			    </button>
+			    <br><span class="bold red">{{users.likes}}</span><img src="../assets/img/like.png" alt="like logo" class="left">
+			</div>
+		</div>
+	</div>
